@@ -1,35 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Moods container matches a snapshot 1`] = `
-<Fragment>
-  <Controls>
-    <button
-      onClick={[Function]}
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Moods>
+    <Controls>
+      <section
+        className="Controls"
+      >
+        <button
+          onClick={[Function]}
+        >
+          coffee - 
+          0
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          snacks - 
+          0
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          naps - 
+          0
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          studies - 
+          0
+        </button>
+      </section>
+    </Controls>
+    <Face
+      emoji="🤬"
     >
-      coffee - 
-      0
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      snacks - 
-      0
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      naps - 
-      0
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      studies - 
-      0
-    </button>
-  </Controls>
-  <Face
-    emoji="🤬"
-  />
-</Fragment>
+      <p
+        className="Face"
+      >
+        🤬
+      </p>
+    </Face>
+  </Moods>
+</Provider>
 `;
